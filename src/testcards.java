@@ -13,6 +13,10 @@ public class testcards {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Deck deck = new Deck();
+        deck.shuffle();
+        deck.printDeck();
+        System.out.println("");
+        
     }
 }

@@ -61,4 +61,32 @@ public class Card {
         }
     }
     
+    @Override
+    /**
+     * Pretty version of the card
+     */
+    public String toString(){
+        String output = "";
+        if (this.rank==1){
+            output="ACE";
+        }else if(this.rank<=10){
+            output+=this.rank;
+        }else if (this.rank==11){
+            output+="JACK";
+        }else if(this.rank==12){
+            output+="QUEEN";
+        }else if(this.rank==13){
+            output+="KING";
+        }output+="of";
+   
+    if(this.suit==CLUBS){
+    output+="Clubs";
+}else if(this.suit==DIAMONDS){
+    output+="Diamonds";
+}else if(this.rank==SPADES){
+    output+="Spades";
+}else if (this.rank==HEARTS){
+    output+="Hearts";
+}
+    
 }
