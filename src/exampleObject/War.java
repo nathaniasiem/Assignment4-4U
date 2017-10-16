@@ -1,3 +1,5 @@
+package exampleObject;
+
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
@@ -29,7 +31,11 @@ public class War {
                 
             }
         }
-        //game tiem!
-        //ala 
+        //game time!
+        //as long as players have 
+        while (p1.getNumCards () >0 && p2.getNumCards()>0 ){
+            
+        }
+            
     }
 }
