@@ -40,7 +40,7 @@ public class War {
         Player p1 = new Player("Alice");
         Player p2 = new Player("Bob");
 
-        //shuffle deck and deak cards
+        //shuffle deck and deck cards
         deck.shuffle();
         for (int i = 0; i < 52; i++) {
             if (i % 2 == 0) {
